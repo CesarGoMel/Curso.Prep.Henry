@@ -37,7 +37,7 @@ function conection(status) {
   }
   else {
     return "Offline";x
-  }
+  } 
   
 }
 

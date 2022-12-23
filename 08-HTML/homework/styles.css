@@ -1,0 +1,97 @@
+body {
+    background-color: black;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/600/397/non_2x/empty-wooden-table-top-on-white-brick-wall-background-used-for-display-or-montage-your-products-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+@media (min-width:600px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 34px;
+    }
+
+    h3 {
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    img {
+        width: 400px;
+
+    }
+
+    .divClass {
+        text-align: center;
+        border: 50px;
+    }
+
+    #spanId {
+        font-size: 24px;
+        margin: 50px;
+        align-content: center;
+    }
+
+    #thirdDiv {
+        align-content: center;
+        max-height: 800px;
+        max-width: 500px;
+        background-color: goldenrod;
+        padding: 80px;
+        border-radius: 15px;
+    }
+}
+
+@media (max-width:599px) {
+    .container {}
+
+    h1 {
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 24px;
+    }
+
+    h3 {
+        color: rgb(0, 0, 0);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+    }
+
+    img {
+        width: 80%;
+
+    }
+
+    .divClass {
+        text-align: center;
+        border: 50px;
+        margin-bottom: 50px;
+
+    }
+
+    #spanId li {
+        font-size: 10px;
+    }
+
+    #thirdDiv {
+        max-height: 50%;
+        max-width: 100%;
+        background-color: goldenrod;
+        padding: 10px;
+        border-radius: 15px;
+
+    }
+
+}
+

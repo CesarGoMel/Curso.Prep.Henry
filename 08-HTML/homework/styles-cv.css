@@ -1,28 +1,11 @@
-body {
+body {}
 
-}
-
-@media screen {
-    min-width: 600px;
-
-    h2 {
-    }
-
-    .line{
-        background-color: dimgray;
-    }
-
-    .lin{
-        text-align: right;
-        padding: 0%;
-
-
-    }
-
+@media (min-width: 600px) 
+{
     h1 {
         font-family: 'Unbounded', cursiva;
         font-size: 20px;
-        color: darkgrey;
+        color: rgb(255, 255, 255);
         text-align: right;
     }
 
@@ -39,6 +22,7 @@ body {
 
     p {
         font-family: 'Ubuntu', sans-serif;
+        color: rgb(179, 179, 179);
     }
 
     li {
@@ -50,13 +34,39 @@ body {
         margin-left: 5px;
     }
 
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 210px;
+        background-color: rgb(255, 255, 255);
+        background-image: url(./images/estar.jpg);
+        width: 100%;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    .line {
+        background-color: dimgray;
+        height: 10px;
+    }
+
+    .lin {
+        text-align: right;
+        padding: 0px;
+
+
+    }
+
+
     #main-nav {
         float: right;
         width: 300px;
+        padding-right: 30px;
 
     }
- 
-    #experiencia{
+
+    #experiencia {
         background-image: url(./images/fn2.png);
         padding: 10px;
 
@@ -79,7 +89,8 @@ body {
         width: 250px;
         vertical-align: text-top;
         margin-left: 10px;
-        
+
+
     }
 
     #skills div {
@@ -90,12 +101,13 @@ body {
 
     }
 
-
     #descripcion {
         margin-left: 10px;
         text-align: left;
-       }
-    #descripcion div{
+
+    }
+
+    #descripcion div {
         display: inline-block;
         vertical-align: middle;
         padding: 10px;
@@ -107,22 +119,198 @@ body {
         background-color: rgb(0, 0, 0);
         background-image: url(./images/star.png);
         width: 100%;
+        padding-top: 210px;
+        height: 310px;
+
 
     }
+
     #parallax div {
         text-align: center;
-        
+
+    }
+
+    article {
+        font-size: 22px;
+        width: 400px;
+        background-image: url(./images/star.png);
+        padding: 15px;
+        color: white;
+    }
+
+    #hobbies {
+        padding-bottom: 15px;
+
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 12px;
     }
 }
+@media (max-width: 599px) 
+{
+    h1 {
+        font-family: 'Unbounded', cursiva;
+        font-size: 20px;
+        color: rgb(255, 255, 255);
+        text-align: right;
+    }
+
+    h2 {
+        font-family: 'Unbounded', cursiva;
+        font-size: 18px;
+        color: rgb(11, 212, 247);
+    }
+
+    h3 {
+        font-family: 'Unbounded', cursiva;
+        font-size: 14px;
+    }
+
+    p {
+        font-family: 'Ubuntu', sans-serif;
+        color: rgb(92, 92, 92);
+    }
+
+    li {
+        font-family: 'Unbounded', cursiva;
+        font-size: 14;
+    }
+
+    .container {
+        margin-left: 5px;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 310px;
+        background-color: rgb(0, 0, 0);
+
+        width: 100%;
+        padding: 10px;
+        z-index: 1;
+    }
+
+    .line {
+        background-color: dimgray;
+        height: 10px;
+    }
+
+    .lin {
+        text-align: right;
+        padding: 0px;
 
 
+    }
 
-@media screen {
-    max-width: 599px;
 
-    .container {}
+    #main-nav {
+        float: right;
+        width: 300px;
+        padding-right: 30px;
 
-    #main-nav {}
+    }
 
-    .container {}
+    #experiencia {
+        background-image: url(./images/fn2.png);
+        padding: 10px;
+
+    }
+
+    #experiencia div {
+        display: inline-block;
+        width: 200px;
+        height: 160px;
+        vertical-align: text-top;
+        margin-left: 20px;
+        background-image: url(./images/fn.png);
+        padding: 5px;
+        border-radius: 10px;
+
+    }
+
+    #educacion div {
+        display: inline-block;
+        width: 250px;
+        vertical-align: text-top;
+        margin-left: 10px;
+
+
+    }
+
+    #skills div {
+        display: inline-block;
+        width: 250px;
+        vertical-align: text-top;
+        margin-left: 10px;
+
+    }
+
+    #descripcion {
+        margin-left: 10px;
+        text-align: left;
+
+    }
+
+    #descripcion div {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 10px;
+        padding-top: 5px;
+
+    }
+
+    #parallax {
+        background-color: black;
+        background-image: url(./images/star.png);
+        padding-top: 254px;
+        height: 310px;
+        margin-left: -660px;
+
+
+        
+    
+    }
+
+    #parallax div {
+        text-align: center;
+
+    }
+
+    article {
+        font-size: 22px;
+        width: 400px;
+        background-image: url(./images/star.png);
+        padding: 15px;
+        color: white;
+    }
+
+    #hobbies {
+        padding-bottom: 15px;
+
+    }
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        height: 30px;
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-align: center;
+        font-size: 12px;
+    }
 }

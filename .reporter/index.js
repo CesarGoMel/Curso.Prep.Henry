@@ -41,7 +41,7 @@ function getEmail(PATH) {
 		}
 	} catch (error) {
 		console.log(
-			`Tienes que instalar git!
+			`Tienes que instalar git!!!
         https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git`
 		);
 		process.exit()

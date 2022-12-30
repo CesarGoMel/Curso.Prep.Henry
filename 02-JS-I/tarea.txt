@@ -1,0 +1,20 @@
+1 - Una Variable es una forma de almacenar algo, para usarlo luego, no necesito definirla en el momento.  puedo 	usarla de tres formas:  var - let - const 
+
+2- Los strings son tipos de datos (son una cadena de texto), siempre van entre comillas dobles o sencillas.
+
+3- funciones son parte importante del lenguaje de programacion sirven para llamar objetos, se escribe: 
+   funtion name = ()  {}
+   las funciones contiene argumentos que son los valores asignados a la funcion
+   utilizo RETURN para que devuelva el resultado dela funcion, de esta forma salimos  de la funcion.
+
+4- las declaraciones if son controladores de flujo y comparacion, sirven para comprobar si algo es verdadero o falso,
+
+    if () 
+    {
+    else  {
+
+    }
+    };
+
+
+ 5- los valores boleanos son conceptos que tienen dos opciones, verdadero o falso - si o no -  activar o desactivar 
